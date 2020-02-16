@@ -1,0 +1,10 @@
+For a step-by-step tutorial, see Training custom TensorFlow networks for JeVois.
+
+This module supports RGB or grayscale inputs, byte or float32. 
+
+You should create and train your network using fast GPUs, and then follow the instruction here to convert your trained network to TFLite format:
+https://www.tensorflow.org/mobile/tflite/
+
+Then you just need to create a directory under JEVOIS:/share/tensorflow/ with the name of your network, and, in there, two files, labels.txt with the category labels, and model.tflite with your model converted to TensorFlow Lite (flatbuffer format). 
+
+Finally, edit JEVOIS:/modules/JeVois/TensorFlowEasy/params.cfg to select your new network when the module is launched.
