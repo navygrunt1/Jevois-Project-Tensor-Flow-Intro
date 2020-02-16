@@ -1,4 +1,4 @@
-For a step-by-step tutorial, see Training custom TensorFlow networks for JeVois.
+%% For a step-by-step tutorial, see Training custom TensorFlow networks for JeVois.
 
 This module supports RGB or grayscale inputs, byte or float32. 
 
